@@ -2,19 +2,16 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.avatar {
+  width: 100%;
+  height: auto;
+  border: solid red;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
+
+.avatar:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
@@ -34,9 +31,44 @@
 }
 
 .card {
-  padding: 2em;
+  border: solid white 1px;
+  max-width: 450px;
 }
 
-.read-the-docs {
+.role {
   color: #888;
+}
+
+.heading {
+  padding: 10px;
+  background-color: cornflowerblue;
+}
+
+
+.btn {
+  margin: 20px 10px;
+  padding: 10px 50px;
+}
+.buttons {
+  text-align: center;
+
+}
+i {
+  margin-right: 5px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.small-head, .gritty-content, p {
+  padding: 0 10px;
+}
+
+
+footer {
+  background-color: darkolivegreen;
+  max-width: 100%;
+  height: fit-content;
+  padding: 10px;
 }
